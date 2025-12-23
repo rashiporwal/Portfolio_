@@ -1250,7 +1250,7 @@ header ul a:active::after{
         background: none;
     }
     .footer p{
-        height: 60px;
+        height: 50px;
         
     }
 }
