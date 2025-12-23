@@ -1248,7 +1248,9 @@ header ul a:active::after{
     .footer {
         font-size: 0.8rem;
         padding: 8px;
-        margin-bottom: 10px;
+    }
+    .footer p{
+        height: 50px;
     }
 }
 
@@ -1808,7 +1810,7 @@ header ul a:active::after{
     .footer{
         padding: 15px;
         margin-bottom: 20px;
-        
+
     }
 
 }
