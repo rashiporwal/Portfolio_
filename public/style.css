@@ -1248,6 +1248,7 @@ header ul a:active::after{
     .footer {
         font-size: 0.8rem;
         padding: 8px;
+        margin-bottom: 10px;
     }
 }
 
@@ -1618,6 +1619,10 @@ header ul a:active::after{
     .info-cards{
         grid-template-columns: auto;
     }
+
+    .card p{
+        font-size: 12px;
+    }
  
      .card:nth-child(1){
         width: 300px;
@@ -1668,7 +1673,7 @@ header ul a:active::after{
     }
 
     .project-info p{
-        font-size: 10px;
+        font-size: 11px;
         white-space: normal;
         max-height: 200px;
         min-width: 0;
