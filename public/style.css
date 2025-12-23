@@ -1247,10 +1247,11 @@ header ul a:active::after{
 @media (max-width: 480px) {
     .footer {
         font-size: 0.8rem;
-        padding: 8px;
+        background: none;
     }
     .footer p{
-        height: 100px;
+        height: 60px;
+        
     }
 }
 
