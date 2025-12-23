@@ -1621,7 +1621,7 @@ header ul a:active::after{
     }
 
     .card p{
-        font-size: 12px;
+        font-size: 11px;
     }
  
      .card:nth-child(1){
