@@ -640,7 +640,7 @@ header ul a:active::after{
     position: relative;
     cursor: pointer;
     min-width: 400px;
-    transition: 0.5s;
+    transition: 0.1s;
     mix-blend-mode: exclusion;
 }
 
