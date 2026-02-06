@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./project.css">
+    <!-- <link href='https://cdn.boxicons.com/3.0.3/fonts/basic/boxicons.min.css' rel='stylesheet'> -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <div class="container">
+        <video class="back-vid" loop autoplay muted plays-inline src="../videos/galaxy.mp4" type="video/mp4"></video>
+
+        <header data-aos="fade-down" data-aos-duration="2000">
+            <div class="left">
+                <a href="../index.html"><img src="../Images/arrow-s-left.png" alt="logo"></a>
+                <h1><span class="gradient">Rashi</span><code>539</code></h1>
+            </div>
+
+
+            <div class="box-icons">
+                <a href="https://github.com/rashi24-p" target="_blank"><img src="../Images/github.png" alt=""
+                        srcset=""></a>
+            </div>
+
+            
+        </header>
+         <section class="my-project" id="Projects">
+            <h1 class="section-title autoDisplay">My Projects/</h1>
+            <div class="project-card">
+                <div class="project-videobox autoBlur">
+                    <video loop id="projectVideo1" src="videos/Password_changer.mp4"></video>
+                    <div class="hover-sign"></div>
+                </div>
+                <div class="project-info fadein-left">
+                    <h1>Caser <span class="gradient">Cipher</span></h1>
+                    <p>Built a minimal, open-source password generator built for devs and everyday users. Choose your
+                        length (4–32 chars),
+                        toggle character sets (uppercase, lowercase, numbers, symbols), and generate strong passwords
+                        instantly with a clean UI.</p>
+                    <button><i class='bx bx-link-external'><a href="https://password-generator-nine-self.vercel.app/">
+                                Deploy Link</a></i></button>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-videobox autoBlur">
+                    <video loop id="projectVideo2" src="videos/Broadband_video.mp4"></video>
+                </div>
+
+                <div class="project-info fadein-left">
+                    <h1>Caser <span class="gradient">Cipher</span></h1>
+                    <p>A broadband-company responsive website</p>
+                    <button><i class='bx bx-link-external'></i><a href="https://con-broadband-company.vercel.app/">
+                            Deloy Link</a></button>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-videobox autoBlur">
+                    <video loop id="projectVideo3" src="videos/video_Image_generator.mp4"></video>
+                </div>
+
+                <div class="project-info fadein-left">
+                    <h1>Caser <span class="gradient">Cipher</span></h1>
+                    <p>Created a Streamlit-based project with a clean, simple UI.
+                        It creates unique images using different geometric shapes for a fun visual experience.
+                        After generation, a saved message confirms the image is successfully stored.</p>
+                    <button><i class='bx bx-link-external'></i><a href="https://random1magegenerator.streamlit.app/">
+                            Deloy Link</a></button>
+                </div>
+            </div>
+            <!-- here to add more projects -->
+
+        </section>
+
+
+
+     
+
+        <section class="footer">
+            <p>&copy; 2025 💚Designed by <span class="gradient">Rashi Porwal.</span></p>
+        </section>
+    </div>
+
+
+
+    <script src="./public/app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
